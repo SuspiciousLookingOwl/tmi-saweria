@@ -1,6 +1,6 @@
 # TWI Saweria Bot
 
-Self host your Twitch Bot and send a message to your Twitch live stream when you receive a donation in [Saweria](https://saweria.co)!
+Self host your Twitch Bot and send a message to your Twitch live stream when you receive a donation from [Saweria](https://saweria.co)!
 
 ## How to use
 
@@ -11,7 +11,7 @@ Self host your Twitch Bot and send a message to your Twitch live stream when you
 5. Enter your `OAUTH_TOKEN`, you can get your OAuth Token from [twitchapps.com/tmi](https://twitchapps.com/tmi/)
 6. Enter your `ALERT_URL`, this is your Saweria overlay URL. You can get the URL from [saweria.co/overlays](https://saweria.co/overlays)
 
-At the end, your config file will look like this:
+At the end, your `config` file will look like this:
 ```cfg
 [Twitch]
 BOT_USERNAME=yourbotorchannelname

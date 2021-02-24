@@ -4,7 +4,7 @@ Self host your Twitch Bot and send a message to your Twitch live stream when you
 
 ## How to use
 
-1. Download and extract the `zip` file
+1. Download and extract the `zip` file [here](https://github.com/SuspiciousLookingOwl/tmi-saweria/releases)
 2. Open the `config` file with Notepad or other text / code editor
 3. Enter your `BOT_USERNAME`, this can be your own channel name or you can create a new Twitch account dedicated for bot
 4. Enter your `CHANNEL_NAME`, this is your Twitch channel name

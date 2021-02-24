@@ -1,0 +1,9 @@
+[Twitch]
+BOT_USERNAME=yourbotorchannelname
+CHANNEL_NAME=yourchannelname
+OAUTH_TOKEN=oauth:...
+MESSAGE_TEMPLATE={donator} donated {amount}. {message}
+
+[Saweria]
+ALERT_URL=https://saweria.co/overlays/alert...
+

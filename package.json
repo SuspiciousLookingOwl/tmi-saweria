@@ -1,0 +1,26 @@
+{
+  "name": "tmi-saweria",
+  "version": "0.0.1",
+  "description": "TMI Saweria Bot",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "jest",
+    "compile": "tsc",
+    "build": "pkg --targets=win --out-path=build ."
+  },
+  "keywords": [
+    "saweria",
+    "twitch"
+  ],
+  "author": "SuspiciousLookingOwl",
+  "license": "MIT",
+  "devDependencies": {
+    "pkg": "^4.4.9"
+  },
+  "dependencies": {
+    "configparser": "^0.3.9",
+    "saweria": "^1.2.5",
+    "tmi.js": "^1.7.1"
+  }
+}

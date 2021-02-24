@@ -8,7 +8,7 @@ Self host your Twitch Bot and send a message to your Twitch live stream when you
 2. Open the `config` file with Notepad or other text / code editor
 3. Enter your `BOT_USERNAME`, this can be your own channel name or you can create a new Twitch account dedicated for bot
 4. Enter your `CHANNEL_NAME`, this is your Twitch channel name
-5. Enter your `OAUTH_TOKEN`, you can get your OAuth Token from [twitchapps.com/tmi](https://twitchapps.com/tmi/)
+5. Enter your `OAUTH_TOKEN`, you can get your OAuth Token from [twitchapps.com/tmi](https://twitchapps.com/tmi/). <b>NEVER SHARE YOUR OAUTH TOKEN WITH ANYONE</b>
 6. Enter your `ALERT_URL`, this is your Saweria overlay URL. You can get the URL from [saweria.co/overlays](https://saweria.co/overlays)
 
 At the end, your `config` file will look like this:

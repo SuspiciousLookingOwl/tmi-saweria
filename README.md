@@ -1,4 +1,4 @@
-# TWI Saweria Bot
+# Twitch - Saweria Bot
 
 Self host your Twitch Bot and send a message to your Twitch live stream when you receive a donation from [Saweria](https://saweria.co)!
 

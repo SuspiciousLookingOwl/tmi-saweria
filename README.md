@@ -32,4 +32,4 @@ Finally you can run the `tmi-saweria.exe` file.
 
 To make sure that everything is working properly, go to https://saweria.co/overlays and click `Munculkan notifikasi` and check your stream chat.
 
-![Example](https://cdn.discordapp.com/attachments/770681027428352042/814162660736237608/unknown.png)
+![Example](https://s4.gifyu.com/images/saweria.gif)

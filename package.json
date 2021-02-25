@@ -8,7 +8,7 @@
     "test": "jest",
     "compile": "tsc",
     "build": "node build.js",
-    "build:in": "npx webpack && pkgx build dist/index.js -d dist -t node8-win-x86"
+    "build:in": "npx webpack && pkgx build dist/index.js -t node8-win-x86"
   },
   "keywords": [
     "saweria",
@@ -19,6 +19,7 @@
   "devDependencies": {
     "@babel/core": "^7.13.1",
     "@babel/preset-env": "^7.13.5",
+    "archiver": "^5.2.0",
     "babel-loader": "^8.2.2",
     "terser-webpack-plugin": "^5.1.1",
     "webpack": "^5.24.2",

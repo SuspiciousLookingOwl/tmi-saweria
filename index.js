@@ -1,3 +1,5 @@
+require("regenerator-runtime/runtime");
+
 const tmi = require("tmi.js");
 const SaweriaClient = require("saweria");
 const ConfigParser = require("configparser");

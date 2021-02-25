@@ -7,9 +7,6 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, "dist"),
-    library: "myLibrary",
-    libraryTarget: "umd",
-    umdNamedDefine: true,
   },
   mode: "production",
   target: "node",

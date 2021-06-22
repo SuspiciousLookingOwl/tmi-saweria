@@ -54,6 +54,10 @@ function run(config) {
     tmiClient.say(config.CHANNEL_NAME, message);
   });
 
+  saweriaClient.on("error", (err) => {
+    console.error("Error: ", err);
+  });
+
   tmiClient.on("connected", () => {
     const streamKey = parse(
       new URL(config.ALERT_URL, "https://saweria.co").search.substr(1)

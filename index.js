@@ -43,17 +43,15 @@ function run(config) {
     channels: [config.CHANNEL_NAME],
   });
 
-  saweriaClient.on("donations", (donations) => {
-    for (const donation of donations) {
-      let message = config.MESSAGE_TEMPLATE;
-      message = message?.replace(/{donator}/g, donation.donator);
-      message = message?.replace(
-        /{amount}/g,
-        "Rp " + numberWithCommas(donation.amount)
-      );
-      message = message?.replace(/{message}/g, donation.message);
-      tmiClient.say(config.CHANNEL_NAME, message);
-    }
+  saweriaClient.on("donation", (donation) => {
+    let message = config.MESSAGE_TEMPLATE;
+    message = message?.replace(/{donator}/g, donation.donator);
+    message = message?.replace(
+      /{amount}/g,
+      "Rp " + numberWithCommas(donation.amount)
+    );
+    message = message?.replace(/{message}/g, donation.message);
+    tmiClient.say(config.CHANNEL_NAME, message);
   });
 
   tmiClient.on("connected", () => {

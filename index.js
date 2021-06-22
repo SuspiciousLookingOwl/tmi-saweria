@@ -22,6 +22,7 @@ try {
     OAUTH_TOKEN: configParser.get("Twitch", "OAUTH_TOKEN"),
     MESSAGE_TEMPLATE: configParser.get("Twitch", "MESSAGE_TEMPLATE"),
     ALERT_URL: configParser.get("Saweria", "ALERT_URL"),
+    DEBUG: configParser.get("Twitch", "DEBUG") === "true",
   };
   run(config);
 } catch (err) {
@@ -31,7 +32,7 @@ try {
 function run(config) {
   const saweriaClient = new SaweriaClient();
   const tmiClient = new tmi.Client({
-    options: { debug: true },
+    options: { debug: config.DEBUG },
     connection: {
       secure: true,
       reconnect: true,

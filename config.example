@@ -3,6 +3,7 @@ BOT_USERNAME=yourbotorchannelname
 CHANNEL_NAME=yourchannelname
 OAUTH_TOKEN=oauth:...
 MESSAGE_TEMPLATE={donator} donated {amount}. {message}
+DEBUG=true
 
 [Saweria]
 ALERT_URL=https://saweria.co/overlays/alert...

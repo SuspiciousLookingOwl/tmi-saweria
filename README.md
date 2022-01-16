@@ -1,3 +1,8 @@
+
+## This is no longer working, check [this issue](https://github.com/SuspiciousLookingOwl/saweria-api/issues/4#issuecomment-1013856776).
+
+---
+
 # Twitch - Saweria Bot
 
 Self host your Twitch Bot and send a message to your Twitch live stream when you receive a donation from [Saweria](https://saweria.co)!
